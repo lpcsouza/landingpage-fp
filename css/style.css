@@ -240,6 +240,18 @@ p {
   transition: all 0.3s ease;
 }
 
+.people-info {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.testimonial-card img {
+  width: 8rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
 .testimonial-author {
   font-weight: 500;
   font-family: "Playfair Display", serif;
